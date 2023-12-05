@@ -1,0 +1,237 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f5f7; /* Light pink */
+    color: #1a1a1a; /* Dark gray */
+    font-family: Verdana, sans-serif;
+}
+
+.main-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a4e69; /* Indigo */
+    color: #f9f5f7; /* Light pink */
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid ;
+    border-color: indigo;
+    margin-bottom: 10px;
+}
+
+.artist-title {
+    font-size: 66px;
+    margin: 0;
+    min-width: 100px;
+}
+
+.share-button, .menu-button {
+    background-color: #9f1aff; /* Light Indigo */
+    width: 133px;
+    color: #f9f5f7; /* Light pink */
+    font-size: 12px;
+    padding: 10px;
+    margin: 9px;
+    border: 1px solid ;
+    border-color: aliceblue;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.icon-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+}
+
+/* Style for icon grid */
+.icon-grid {
+    display: flex ;
+    min-width: 900px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for each icon item */
+.icon-item {
+    margin-bottom: 9px;
+    width:300px;
+    max-width:600px;
+    min-width:350px;
+}
+
+.icon-image {
+    height: 33px;
+    width: 33px;
+    border: 3px solid indigo;
+    border-style:solid;
+    border-radius: 33px;
+    transition: background-color 0.1s ease;
+}
+
+/* Style for the icon links */
+.icon-link {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    background-color: #2b2e4a; /* Purple */
+    color: #f9f5f7; /* Light pink */
+    padding: 12px;
+    font-size: 33px;
+    border-radius: 33px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+/* Style for the icon names */
+.icon-name {
+    margin-top: 9px;
+    font-size: 16px;
+    color: rgb(0, 58, 58); /* Dark gray */
+}
+
+/* Hover effect for the icon links */
+.icon-link:hover {
+    background-color: #c576df; /* light lavender */
+}
+.gallery-preview-section {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #8d99ae; /* Heart green */
+}
+
+.preview-gallery-title {
+    text-align: center;
+    font-size: 44px;
+    color: #f9f5f7; /* Light pink */
+}
+
+.gallery-grid {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #9d99ae; /*  9Heart slightly purple */ 
+}
+/* Add more styles for the gallery preview content */
+
+.imagepreview {
+    width: 600px; /* Set the desired width */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 10%;
+}
+
+/* Example of media query for smaller screens */
+@media only screen and (max-width: 768px) {
+
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+    }
+
+    .share-button, .menu-button {
+        background-color: #9f1aff; /* Light Indigo */
+        width: 60px;
+        height: 30px;
+        color: #f9f5f7; /* Light pink */
+        font-size: 9px;
+        padding: 1px;
+        margin: 10px;
+        border: 0.5px solid ;
+        border-color: aliceblue;
+        border-radius: 9px;
+        cursor: pointer;
+    }
+
+    .imagepreview {
+        width: 333px;
+        height: auto;  
+    }
+
+    .artist-title {
+        font-size: 33px;
+    }
+
+    .site-title {
+        font-size: 28px;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+    }
+
+    .site-title {
+        font-size: 18px;
+    }
+
+    .preview-gallery-title {
+        font-size: 22px;
+    }
+
+    .imagepreview {
+        width: 200px;
+        height: auto;  
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .profile-picture {
+        width: 69px;
+        height: 69px;
+    }
+
+    .site-title {
+        font-size: 9px;
+    }
+
+    .artist-title {
+        font-size: 22px;
+    }
+
+    .imagepreview {
+        width: 112px;
+        height: auto;  
+    }
+    .image-caption {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .profile-picture {
+        width: 69px;
+        height: 69px;
+    }
+
+    .site-title {
+        font-size: 9px;
+    }
+
+    .artist-title {
+        font-size: 22px;
+    }
+
+    .imagepreview {
+        width: 1px;
+        height: auto;  
+    }
+
+    .image-caption {
+        font-size: 9px;
+    }
+}
+
+
+
+
+
+
