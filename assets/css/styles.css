@@ -177,8 +177,7 @@ body {
         font-size: 22px;
     }
     .icon-image {
-        height: 43px;
-        width: 43px;
+        transform: scale (1.5);
     }
 
     .imagepreview {
@@ -202,8 +201,7 @@ body {
     }
 
     .icon-image {
-        height: 43px;
-        width: 43px;
+        transform: scale (1.5);
     }
 
     .imagepreview {
