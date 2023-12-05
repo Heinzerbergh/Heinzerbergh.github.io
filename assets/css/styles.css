@@ -176,6 +176,10 @@ body {
     .preview-gallery-title {
         font-size: 22px;
     }
+    .icon-image {
+        height: 43px;
+        width: 43px;
+    }
 
     .imagepreview {
         width: 200px;
