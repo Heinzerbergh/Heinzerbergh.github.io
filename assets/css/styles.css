@@ -197,6 +197,11 @@ body {
         font-size: 22px;
     }
 
+    .icon-image {
+        height: 43px;
+        width: 43px;
+    }
+
     .imagepreview {
         width: 112px;
         height: auto;  
