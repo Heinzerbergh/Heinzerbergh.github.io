@@ -132,8 +132,8 @@ body {
 }
 
 .about-paragraph {
-    size: 9px;
-    max-width: 333px;
+    font-size: 9px;
+    color: #514758;
 }
 .copyright-line-footer {
     text-align: center;
