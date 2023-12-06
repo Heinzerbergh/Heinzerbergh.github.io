@@ -66,8 +66,8 @@ body {
 }
 
 .icon-image {
-    height: 33px;
-    width: 33px;
+    height: 66px;
+    width: 66px;
     border: 3px solid indigo;
     border-style:solid;
     border-radius: 33px;
@@ -127,7 +127,23 @@ body {
     border-radius: 10%;
 }
 
+.footer-container {
+    text-align: center;
+}
+.copyright-line-footer {
+    text-align: center;
+    
+}
+
+.copyright-line-footer {
+    border: silver;
+    size: 33px;
+}
+
 /* Example of media query for smaller screens */
+
+/* css code for a 768px screen */
+
 @media only screen and (max-width: 768px) {
 
     .profile-picture {
@@ -158,11 +174,18 @@ body {
         font-size: 33px;
     }
 
+    .icon-name {
+        color: lightpink;
+    }
+
     .site-title {
         font-size: 28px;
     }
 
 }
+
+/* css code for a 600px screen */
+
 @media only screen and (max-width: 600px) {
     .profile-picture {
         width: 100px;
@@ -177,7 +200,12 @@ body {
         font-size: 22px;
     }
     .icon-image {
-        transform: scale (1.5);
+        width: 48px;
+        height: 48px;
+    }
+
+    .icon-name {
+        color: lightpink;
     }
 
     .imagepreview {
@@ -185,6 +213,8 @@ body {
         height: auto;  
     }
 }
+
+/* css code for a 300px screen */
 
 @media only screen and (max-width: 300px) {
     .profile-picture {
@@ -200,8 +230,8 @@ body {
         font-size: 22px;
     }
 
-    .icon-image {
-        transform: scale (1.5);
+    .icon-name {
+        color: lightpink;
     }
 
     .imagepreview {
@@ -212,6 +242,8 @@ body {
         font-size: 12px;
     }
 }
+
+/* css code for a 200px screen */
 
 @media only screen and (max-width: 200px) {
     .profile-picture {
@@ -227,6 +259,10 @@ body {
         font-size: 22px;
     }
 
+    .icon-name {
+        color: lightpink;
+    }
+
     .imagepreview {
         width: 1px;
         height: auto;  
@@ -237,8 +273,17 @@ body {
     }
 }
 
+/* css code for the Oasis page II */
 
+    .main-section-oasis {
+        text-align: center;
+        padding: 20px;
+        background-color: #4a4e69; /* Indigo */
+        color: #f9f5f7; /* Light pink */
+}
 
-
-
-
+    .oasis-title {
+        font-size: 112px;
+        margin: 0;
+        min-width: 112px;
+    }
