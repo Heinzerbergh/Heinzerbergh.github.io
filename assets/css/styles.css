@@ -132,7 +132,8 @@ body {
 }
 
 .about-paragraph {
-    size: 11px;
+    size: 9px;
+    max-width: 333px;
 }
 .copyright-line-footer {
     text-align: center;
